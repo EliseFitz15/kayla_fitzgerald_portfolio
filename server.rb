@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'haml'
+require 'Haml'
 
 get '/' do
   haml :home
