@@ -1,0 +1,29 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    %title= "Kayla Fitzgerald"
+    %link(rel="stylesheet" href="stylesheets/foundation.min.css")
+    %link(rel="stylesheet" href="stylesheets/application.css")
+
+  %body
+    .wrapper
+      = yield
+
+  %div.navigation.sticky
+    %ul#page-navigation
+      %li
+        %a{ :href => "/about"}= "About"
+      %li
+        %a{ :href => "/portfolio"}= "Portfolio"
+      %li
+        %a{ :href => "/resume"}= "Resume"
+      %li
+        %a{ :href => "/contact"}= "Contact"
+
+    %script(src="/javascipts/vendor/jquery.js")
+    %script(src="/javascipts/vendor/what-input.min.js")
+    %script(src="/javascipts/foundation.min.js")
+    %script(src="/javascipts/application.js")

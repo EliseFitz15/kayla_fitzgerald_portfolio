@@ -1,0 +1,33 @@
+.home-wrapper {
+  padding: 16px;
+}
+
+.sticky {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+#page-navigation {
+  text-align: center;
+  margin: 16px 0px;
+}
+
+#page-navigation li {
+  display: inline;
+  padding: 20px 130px;
+}
+
+#page-navigation li a {
+  color: black;
+  font-size: 1.75rem;
+}
+
+#page-navigation li a:hover {
+  color: #802828;
+}
+
+.resume-wrapper {
+  background-color: black;
+  padding: 5% 10%;
+}
