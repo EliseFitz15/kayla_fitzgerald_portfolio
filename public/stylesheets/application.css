@@ -1,10 +1,10 @@
-.home-wrapper {
+.wrapper {
   padding: 16px;
 }
 
-.sticky {
+.navigation {
   background-color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
@@ -30,4 +30,22 @@
 .resume-wrapper {
   background-color: black;
   padding: 5% 10%;
+}
+
+.contact-info {
+  position: absolute;
+  bottom: 22%;
+  left: 7%;
+}
+
+.contact-info img {
+  width: 50px;
+}
+
+.info-wrapper {
+  position: absolute;
+  top: 30%;
+  width: 33%;
+  left: 6%;
+  font-size: 14px;
 }
