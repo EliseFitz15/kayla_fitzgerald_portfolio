@@ -1,9 +1,25 @@
 $red: #802828;
 $black: #000;
 $white: #fff;
+$break-small: 640px;
+$break-large: 1200px;
 
 .wrapper {
   padding: 16px;
+
+  @media screen and (max-width: $break-small) {
+    padding: 8px;
+  }
+}
+
+div.home-wrapper {
+  content:url('../images/home-photo.jpg');
+  max-width: 100%;
+  height: auto;
+
+  @media screen and (max-width: $break-small) {
+    content:url('../images/home-page-mobile.jpg');
+  }
 }
 
 .navigation {
@@ -11,23 +27,27 @@ $white: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+  height: auto;
 
-#page-navigation {
-  text-align: center;
-  margin: 16px 0px;
-}
+  #page-navigation {
+    text-align: center;
+    margin: 16px 0px;
+  }
 
-#page-navigation li {
-  display: inline;
-  padding: 5%;
-}
+  #page-navigation li {
+    display: inline;
+    padding: 5%;
+  }
 
-#page-navigation li a {
-  color: $black;
-  font-size: 1.75rem;
-}
+  #page-navigation li a {
+    color: $black;
+    font-size: 1.75rem;
+    @media screen and (max-width: $break-small) {
+      font-size: 1rem;
+    }
+  }
 
-#page-navigation li a:hover {
-  color: $red;
+  #page-navigation li a:hover {
+    color: $red;
+  }
 }

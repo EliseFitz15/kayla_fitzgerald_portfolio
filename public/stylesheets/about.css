@@ -1,1 +1,1 @@
-.info-wrapper{position:absolute;top:30%;width:33%;left:6%;font-size:14px}
+div.about-wrapper{content:url("../images/about-photo.jpg");max-width:100%;height:auto}@media screen and (max-width: 640px){div.about-wrapper{content:url("../images/about-photo-mobile.jpg")}}.info-wrapper{position:absolute;top:30%;width:33%;left:6%;font-size:14px}@media screen and (max-width: 640px){.info-wrapper{top:3%;width:91%;left:6%;font-size:10px}}

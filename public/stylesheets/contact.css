@@ -1,1 +1,1 @@
-.contact-info{position:absolute;bottom:22%;left:7%}.contact-info img{width:50px}
+div.contact-wrapper{content:url("../images/contact-photo.jpg");max-width:100%;height:auto}@media screen and (max-width: 640px){div.contact-wrapper{content:url("../images/contact-page-mobile.jpg")}}.contact-info{position:absolute;bottom:22%;left:7%}.contact-info img{width:50px}
