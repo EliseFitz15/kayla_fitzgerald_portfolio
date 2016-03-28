@@ -14,6 +14,9 @@ div.contact-wrapper {
   position: absolute;
   bottom: 22%;
   left: 7%;
+  @media screen and (max-width: $break-small) {
+    bottom: 14%;
+  }
 }
 
 .contact-info h1 {
@@ -22,13 +25,11 @@ div.contact-wrapper {
   }
 }
 .contact-info h3 {
-
   @media screen and (max-width: $break-small) {
     font-size: 1rem;
   }
 }
 .contact-info h6 {
-
   @media screen and (max-width: $break-small) {
     font-size: 0.8rem;
   }
