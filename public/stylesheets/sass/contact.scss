@@ -16,6 +16,26 @@ div.contact-wrapper {
   left: 7%;
 }
 
+.contact-info h1 {
+  @media screen and (max-width: $break-small) {
+    font-size: 1.2rem;
+  }
+}
+.contact-info h3 {
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1rem;
+  }
+}
+.contact-info h6 {
+
+  @media screen and (max-width: $break-small) {
+    font-size: 0.8rem;
+  }
+}
 .contact-info img {
   width: 50px;
+  @media screen and (max-width: $break-small) {
+    width: 30px;
+  }
 }
