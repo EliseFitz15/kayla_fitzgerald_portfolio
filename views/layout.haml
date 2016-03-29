@@ -10,18 +10,23 @@
     %link{:rel => 'stylesheet', :type => 'text/css', :href => '/stylesheets/about.css'}
     %link{:rel => 'stylesheet', :type => 'text/css', :href => '/stylesheets/resume.css'}
     %link{:rel => 'stylesheet', :type => 'text/css', :href => '/stylesheets/contact.css'}
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/stylesheets/portfolio.css'}
 
   %body
     .wrapper
       = yield
 
-  %div.navigation
-    %ul#page-navigation
-      %li
-        %a{ :href => "/about"}= "About"
-      %li
-        %a{ :href => "https://www.behance.net/KaylaFitzgerald"}= "Portfolio"
-      %li
-        %a{ :href => "/resume"}= "Resume"
-      %li
-        %a{ :href => "/contact"}= "Contact"
+      %div.navigation
+        %ul#page-navigation
+          %li
+            %a{ :href => "/about"}
+              %img( src="/images/text/ABOUTbtn.png")
+          %li
+            %a{ :href => "/portfolio"}
+              %img( src="/images/text/PORTFOLIObtn.png")
+          %li
+            %a{ :href => "/resume"}
+              %img( src="/images/text/RESUMEbtn.png")
+          %li
+            %a{ :href => "/contact"}
+              %img( src="/images/text/CONTACTbtn.png")

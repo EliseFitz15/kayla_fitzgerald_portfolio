@@ -11,30 +11,27 @@ div.contact-wrapper {
 }
 
 .contact-info {
+  width: 42%;
   position: absolute;
-  bottom: 22%;
-  left: 7%;
+  top: 50%;
+  left: 5%;
   @media screen and (max-width: $break-small) {
-    bottom: 14%;
+    width: 66%;
+    top: 62%;
   }
 }
 
-.contact-info h1 {
+.contact-links {
+  position: absolute;
+  bottom: 22%;
+  left: 5.5%;
   @media screen and (max-width: $break-small) {
-    font-size: 1.2rem;
+    bottom: 25%;
   }
 }
-.contact-info h3 {
-  @media screen and (max-width: $break-small) {
-    font-size: 1rem;
-  }
-}
-.contact-info h6 {
-  @media screen and (max-width: $break-small) {
-    font-size: 0.8rem;
-  }
-}
-.contact-info img {
+
+
+.contact-links img {
   width: 50px;
   @media screen and (max-width: $break-small) {
     width: 30px;
