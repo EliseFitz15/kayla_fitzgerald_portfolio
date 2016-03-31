@@ -3,7 +3,8 @@ $black: #000;
 $white: #fff;
 $break-small: 640px;
 $break-large: 1200px;
-$border-width: 48px;
+$border-width-large: 48px;
+$border-width-small: 20px;
 
 .wrapper {
   padding: 24px;
@@ -28,11 +29,16 @@ div.home-wrapper {
 
 .navigation {
   background-color: $white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: calc(100% - #{$border-width});
+  width: calc(100% - #{$border-width-large});
   height: auto;
   border-bottom: 24px solid $black;
+
+  @media screen and (max-width: $break-small) {
+    width: calc(100% - #{$border-width-small});
+    border-bottom: 10px solid $black;
+  }
 
   #page-navigation {
     text-align: center;
@@ -42,6 +48,10 @@ div.home-wrapper {
   #page-navigation li {
     display: inline;
     padding: 10px 5%;
+
+    @media screen and (max-width: $break-small) {
+      padding: 4%;
+    }
   }
 
   #page-navigation li a img {
@@ -50,9 +60,5 @@ div.home-wrapper {
     @media screen and (max-width: $break-small) {
       height: 15px;
     }
-  }
-
-  #page-navigation li a:hover {
-    color: $red;
   }
 }
