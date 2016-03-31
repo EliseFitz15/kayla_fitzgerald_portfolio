@@ -9,8 +9,10 @@ $border-width: 48px;
   padding: 24px;
   background-color: $black;
   width: 100%;
+  position: relative;
+
   @media screen and (max-width: $break-small) {
-    padding: 8px;
+    padding: 10px;
   }
 }
 
@@ -26,7 +28,7 @@ div.home-wrapper {
 
 .navigation {
   background-color: $white;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: calc(100% - #{$border-width});
   height: auto;
@@ -39,7 +41,7 @@ div.home-wrapper {
 
   #page-navigation li {
     display: inline;
-    padding: 5%;
+    padding: 10px 5%;
   }
 
   #page-navigation li a img {
