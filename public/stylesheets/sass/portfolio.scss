@@ -1,9 +1,12 @@
-$white: #fff;
+$break-small: 640px;
 
 .portfolio-landing-wrapper {
+  content:url('../images/WorkinOnIt-desktop.png');
+  max-width: 100%;
+  height: auto;
   background-color: white;
-}
-
-.portfolio-landing-wrapper img {
-  padding: 23%;
+  
+  @media screen and (max-width: $break-small) {
+    content:url('../images/WorkinOnIt-mobile.png');
+  }
 }

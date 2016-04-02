@@ -1,1 +1,1 @@
-.portfolio-landing-wrapper{background-color:white}.portfolio-landing-wrapper img{padding:23%}
+.portfolio-landing-wrapper{content:url("../images/WorkinOnIt-desktop.png");max-width:100%;height:auto;background-color:white}@media screen and (max-width: 640px){.portfolio-landing-wrapper{content:url("../images/WorkinOnIt-mobile.png")}}
