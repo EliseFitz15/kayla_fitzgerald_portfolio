@@ -6,6 +6,10 @@ $break-large: 1200px;
 $border-width-large: 48px;
 $border-width-small: 20px;
 
+body {
+  background-color: $black;
+}
+
 .wrapper {
   padding: 24px;
   background-color: $black;
@@ -29,7 +33,7 @@ div.home-wrapper {
 
 .navigation {
   background-color: $white;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: calc(100% - #{$border-width-large});
   height: auto;

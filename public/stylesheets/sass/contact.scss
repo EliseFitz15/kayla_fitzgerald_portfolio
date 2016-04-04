@@ -15,18 +15,19 @@ div.contact-wrapper {
   position: absolute;
   top: 50%;
   left: 5%;
+
   @media screen and (max-width: $break-small) {
     width: 66%;
-    top: 62%;
+    top: 70%;
   }
 }
 
 .contact-links {
   position: absolute;
-  bottom: 22%;
+  bottom: 24%;
   left: 5.5%;
   @media screen and (max-width: $break-small) {
-    bottom: 25%;
+    bottom: 15%;
   }
 }
 
